@@ -3,3 +3,40 @@
 # Lecture 1 - 17/03/25
 - when Question arises that why was Language Java Build ?
 - Then we can say to operate an particular program on different operating systems. as in earlier language like C & C++ we do not have this type of function where we use an program on various platforms
+
+
+# Lecture 5 - 24/03/25
+-Documentation style comments begin with /** and terminate with */ that spans multiple lines. they are generally created using the automatic documentation generation tool, such as java.
+and you can also use same thing here also which are you using in C and C++ language.
+-Widening conversion:[type casting]
+-int y = 3;
+-float x = y; // widening conversion, no error.
+-Narrowing conversion:
+-float x = 3.4f ; // if you did not put f in it then it will store data in double type  data.
+-int y = x; // narrowing conversion, error and here 'error' means your data is loosing.
+-int y = (int)x; // no error
+-float k = 3.5; // narrowing conversion, error
+-float k = 3.5f ;//no error
+--permitted conversion
+-byte to short, int, long, float, or double.
+-short to int, long, float, or double.
+-char to int, long, float, or double.
+-int to long, float, or double.
+-long to float or double.
+-float to double.
+
+# Lecture 6 - 24/03/25 
+--Classes and objects in java.
+-Why we need class?
+-Primitive data type: means datatypes like int, float, etc etc..
+-Non-Primitive datatype like storing data of student for ex Name, roll no. and many more things. in simpler words like data structure.
+-but if we store data of different type such as here we are using float, int, string any many other data types, hence by creating different types of variable and storing data will lead to loose the data of an particular student
+so for preventing this we have to grouping these variable.
+-Hence, Object oriented philosophy says that "with related to one entities store all the information at one place, so for this we create classes. so by using non-Primitive data types(which were also made with the help of Primitive data type.).
+-Class is a description of an object's property and behaviour.
+-creating class is as good as creating data type.
+-class is defining a category of data.
+-Object is a real world entity.
+-Object is an instance or example of a class.
+-Object consumes memory to hold property values.
+-
