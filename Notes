@@ -39,4 +39,4 @@ so for preventing this we have to grouping these variable.
 -Object is a real world entity.
 -Object is an instance or example of a class.
 -Object consumes memory to hold property values.
--
+-in java we can only create objects of classes dynamically.
